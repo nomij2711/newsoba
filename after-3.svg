@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#34495e"/>
+  <g fill="#ffffff" fill-opacity="0.1">
+    <circle cx="150" cy="200" r="70"/>
+    <circle cx="450" cy="200" r="70"/>
+    <rect x="100" y="100" width="400" height="200" rx="10"/>
+  </g>
+  <g transform="translate(150, 100)">
+    <!-- Oven outline -->
+    <rect x="0" y="0" width="300" height="200" rx="5" fill="#7f8c8d" fill-opacity="0.9"/>
+    <rect x="20" y="60" width="260" height="120" rx="0" fill="#2c3e50" fill-opacity="0.7"/>
+    <!-- New control panel -->
+    <rect x="20" y="10" width="260" height="40" rx="2" fill="#34495e" fill-opacity="0.9"/>
+    <!-- New digital display -->
+    <rect x="30" y="15" width="100" height="30" rx="2" fill="#3498db" fill-opacity="0.8"/>
+    <text x="80" y="35" font-family="Arial" font-size="14" text-anchor="middle" fill="#ecf0f1">350°F</text>
+    <!-- New buttons -->
+    <circle cx="150" cy="30" r="10" fill="#ecf0f1" fill-opacity="0.9"/>
+    <circle cx="180" cy="30" r="10" fill="#ecf0f1" fill-opacity="0.9"/>
+    <circle cx="210" cy="30" r="10" fill="#ecf0f1" fill-opacity="0.9"/>
+    <circle cx="240" cy="30" r="10" fill="#ecf0f1" fill-opacity="0.9"/>
+    <!-- Button icons -->
+    <text x="150" y="34" font-family="Arial" font-size="10" text-anchor="middle" fill="#34495e">-</text>
+    <text x="180" y="34" font-family="Arial" font-size="10" text-anchor="middle" fill="#34495e">+</text>
+    <text x="210" y="34" font-family="Arial" font-size="10" text-anchor="middle" fill="#34495e">T</text>
+    <text x="240" y="34" font-family="Arial" font-size="10" text-anchor="middle" fill="#34495e">M</text>
+    <!-- Oven interior -->
+    <rect x="30" y="70" width="240" height="100" rx="0" fill="#7f8c8d" fill-opacity="0.5"/>
+    <!-- Oven elements -->
+    <rect x="40" y="80" width="220" height="5" rx="0" fill="#e74c3c" fill-opacity="0.7"/>
+    <rect x="40" y="155" width="220" height="5" rx="0" fill="#e74c3c" fill-opacity="0.7"/>
+    <!-- Oven door handle -->
+    <rect x="140" y="180" width="20" height="10" rx="5" fill="#ecf0f1" fill-opacity="0.9"/>
+    <!-- Shiny new highlights -->
+    <circle cx="30" cy="30" r="3" fill="#f1c40f" fill-opacity="0.6"/>
+    <circle cx="270" cy="30" r="3" fill="#f1c40f" fill-opacity="0.6"/>
+  </g>
+  <text x="300" y="375" font-family="Arial" font-size="24" text-anchor="middle" fill="#ffffff">New Oven Control Panel</text>
+</svg>

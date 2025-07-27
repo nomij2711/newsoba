@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <!-- Background -->
+  <rect width="192" height="192" rx="38" fill="#3498db"/>
+  
+  <!-- AC Symbol -->
+  <g transform="translate(38, 38) scale(0.225)">
+    <!-- AC Unit Outline -->
+    <rect x="50" y="50" width="400" height="250" rx="20" fill="#ffffff"/>
+    
+    <!-- Vents -->
+    <rect x="80" y="100" width="340" height="20" rx="5" fill="#ecf0f1"/>
+    <rect x="80" y="140" width="340" height="20" rx="5" fill="#ecf0f1"/>
+    <rect x="80" y="180" width="340" height="20" rx="5" fill="#ecf0f1"/>
+    <rect x="80" y="220" width="340" height="20" rx="5" fill="#ecf0f1"/>
+    
+    <!-- Control Panel -->
+    <rect x="380" y="80" width="40" height="190" rx="5" fill="#34495e"/>
+    
+    <!-- Buttons -->
+    <circle cx="400" cy="110" r="10" fill="#e74c3c"/>
+    <circle cx="400" cy="150" r="10" fill="#2ecc71"/>
+    <circle cx="400" cy="190" r="10" fill="#f1c40f"/>
+    <circle cx="400" cy="230" r="10" fill="#9b59b6"/>
+    
+    <!-- Cool Air Symbol -->
+    <path d="M250 320 L200 380 L300 380 Z" fill="#3498db"/>
+    <path d="M250 320 L230 350 L270 350 Z" fill="#ffffff"/>
+    
+    <!-- Snowflake Symbol -->
+    <g transform="translate(250, 170)">
+      <!-- Main Lines -->
+      <line x1="0" y1="-40" x2="0" y2="40" stroke="#3498db" stroke-width="8" stroke-linecap="round"/>
+      <line x1="-35" y1="-20" x2="35" y2="20" stroke="#3498db" stroke-width="8" stroke-linecap="round"/>
+      <line x1="-35" y1="20" x2="35" y2="-20" stroke="#3498db" stroke-width="8" stroke-linecap="round"/>
+      
+      <!-- Snowflake Details -->
+      <circle cx="0" cy="0" r="8" fill="#3498db"/>
+      
+      <!-- Endpoints -->
+      <circle cx="0" cy="-40" r="5" fill="#3498db"/>
+      <circle cx="0" cy="40" r="5" fill="#3498db"/>
+      <circle cx="-35" cy="-20" r="5" fill="#3498db"/>
+      <circle cx="35" cy="20" r="5" fill="#3498db"/>
+      <circle cx="-35" cy="20" r="5" fill="#3498db"/>
+      <circle cx="35" cy="-20" r="5" fill="#3498db"/>
+    </g>
+  </g>
+  
+  <!-- Text -->
+  <g transform="translate(96, 150)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">Sohaib</text>
+    <text x="0" y="22" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">AC</text>
+  </g>
+</svg>

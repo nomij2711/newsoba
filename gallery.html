@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Gallery - Sohaib AC Technician</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <meta name="theme-color" content="#3498db">
+    <meta name="description" content="Browse our gallery of completed appliance repair projects. See our work on AC units, refrigerators, ovens, and more throughout Riyadh.">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href="images/icons/icon-192x192.svg">
+    <link rel="apple-touch-icon" href="images/icons/icon-192x192.svg">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="SohaibAC">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>شعيب<span>للتكييف</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" data-translate="nav_home">الرئيسية</a></li>
+                    <li><a href="services.html" data-translate="nav_services">الخدمات</a></li>
+                    <li><a href="about.html" data-translate="nav_about">من نحن</a></li>
+                    <li><a href="gallery.html" class="active" data-translate="nav_gallery">معرض الأعمال</a></li>
+                    <li><a href="contact.html" class="btn-contact" data-translate="nav_contact">اتصل بنا</a></li>
+                </ul>
+                <div class="language-selector" style="display: none;">
+                    <button class="lang-btn active" data-lang="ar">AR</button>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <div class="container">
+            <h1 data-translate="gallery_page_title">معرض أعمالنا</h1>
+            <p data-translate="gallery_page_subtitle">شاهد أمثلة على خدمات إصلاح الأجهزة الاحترافية لدينا</p>
+        </div>
+    </section>
+
+    <section class="gallery-intro">
+        <div class="container">
+            <div class="intro-content animate-on-scroll">
+                <h2 data-translate="gallery_intro_title">Showcasing Our Expertise</h2>
+                <p data-translate="gallery_intro_text">Browse through our gallery to see examples of our repair work, before-and-after transformations, and the quality of service we provide. Our team takes pride in every repair job, ensuring that each appliance is restored to optimal working condition.</p>
+                <div class="gallery-categories">
+                    <button class="category-btn active" data-category="all" data-translate="gallery_category_all">All Projects</button>
+                    <button class="category-btn" data-category="ac" data-translate="gallery_category_ac">AC Repairs</button>
+                    <button class="category-btn" data-category="fridge" data-translate="gallery_category_fridge">Refrigerator Repairs</button>
+                    <button class="category-btn" data-category="oven" data-translate="gallery_category_oven">Oven Repairs</button>
+                    <button class="category-btn" data-category="commercial" data-translate="gallery_category_commercial">Commercial Projects</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-grid">
+        <div class="container">
+            <div class="gallery-container animate-on-scroll">
+                <!-- AC Repair Gallery Items -->
+                <div class="gallery-item" data-category="ac">
+                    <a href="images/gallery/ac-repair-1.svg" data-lightbox="gallery" data-title="إصلاح نظام تكييف مركزي - استبدال الضاغط واستعادة وظيفة التبريد لعميل سكني.">
+                        <img src="images/gallery/ac-repair-1.svg" alt="إصلاح مكيف" onerror="this.src='https://via.placeholder.com/600x400?text=إصلاح+مكيف'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>إصلاح نظام تكييف مركزي</h3>
+                                <p>مشروع سكني</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gallery-item" data-category="ac">
+                    <a href="images/gallery/ac-repair-2.svg" data-lightbox="gallery" data-title="صيانة أنظمة التكييف التجارية - خدمة صيانة ربع سنوية لنظام التبريد في مبنى المكاتب.">
+                        <img src="images/gallery/ac-repair-2.svg" alt="صيانة أنظمة التكييف التجارية" onerror="this.src='https://via.placeholder.com/600x400?text=صيانة+أنظمة+التكييف+التجارية'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>صيانة أنظمة التكييف التجارية</h3>
+                                <p>مشروع مبنى مكاتب</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gallery-item" data-category="ac">
+                    <a href="images/gallery/ac-repair-3.svg" data-lightbox="gallery" data-title="تركيب مكيف سبليت - تركيب نظام جديد موفر للطاقة لإضافة منزلية.">
+                        <img src="images/gallery/ac-repair-3.svg" alt="تركيب مكيف سبليت" onerror="this.src='https://via.placeholder.com/600x400?text=تركيب+مكيف+سبليت'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>تركيب مكيف سبليت</h3>
+                                <p>مشروع سكني</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gallery-item" data-category="ac commercial">
+                    <a href="images/gallery/ac-repair-4.svg" data-lightbox="gallery" data-title="تجديد نظام تكييف المطعم - ترقية كاملة للنظام لتحسين الكفاءة والأداء.">
+                        <img src="images/gallery/ac-repair-4.svg" alt="نظام تكييف المطعم" onerror="this.src='https://via.placeholder.com/600x400?text=نظام+تكييف+المطعم'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>تجديد نظام تكييف المطعم</h3>
+                                <p>مشروع تجاري</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- عناصر معرض إصلاح الثلاجات -->
+                <div class="gallery-item" data-category="fridge">
+                    <a href="images/gallery/fridge-repair-1.svg" data-lightbox="gallery" data-title="إصلاح ثلاجة بابين متجاورين - إصلاح مشكلة التبريد واستبدال صانع الثلج لمنزل عائلي.">
+                        <img src="images/gallery/fridge-repair-1.svg" alt="إصلاح ثلاجة بابين متجاورين" onerror="this.src='https://via.placeholder.com/600x400?text=إصلاح+ثلاجة'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>إصلاح ثلاجة بابين متجاورين</h3>
+                                <p>مشروع سكني</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gallery-item" data-category="fridge commercial">
+                    <a href="images/gallery/fridge-repair-2.svg" data-lightbox="gallery" data-title="وحدة تبريد تجارية - إصلاح نظام التبريد لمتجر بقالة محلي.">
+                        <img src="images/gallery/fridge-repair-2.svg" alt="إصلاح وحدة تبريد تجارية" onerror="this.src='https://via.placeholder.com/600x400?text=تبريد+تجاري'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>وحدة تبريد تجارية</h3>
+                                <p>مشروع متجر بقالة</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gallery-item" data-category="fridge">
+                    <a href="images/gallery/fridge-repair-3.svg" data-lightbox="gallery" data-title="ثلاجة بأبواب فرنسية - استبدال الضاغط وإعادة شحن النظام لعميل سكني.">
+                        <img src="images/gallery/fridge-repair-3.svg" alt="إصلاح ثلاجة بأبواب فرنسية" onerror="this.src='https://via.placeholder.com/600x400?text=ثلاجة+بأبواب+فرنسية'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>إصلاح ثلاجة بأبواب فرنسية</h3>
+                                <p>مشروع سكني</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gallery-item" data-category="fridge commercial">
+                    <a href="images/gallery/fridge-repair-4.svg" data-lightbox="gallery" data-title="غرفة تبريد للمطعم - خدمة إصلاح طارئة لمنع تلف الطعام.">
+                        <img src="images/gallery/fridge-repair-4.svg" alt="إصلاح غرفة تبريد" onerror="this.src='https://via.placeholder.com/600x400?text=غرفة+تبريد'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>غرفة تبريد للمطعم</h3>
+                                <p>مشروع تجاري طارئ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- عناصر معرض إصلاح الأفران -->
+                <div class="gallery-item" data-category="oven">
+                    <a href="images/gallery/oven-repair-1.svg" data-lightbox="gallery" data-title="إصلاح موقد كهربائي - إصلاح عناصر التسخين ولوحة التحكم لمطبخ منزلي.">
+                        <img src="images/gallery/oven-repair-1.svg" alt="إصلاح موقد كهربائي" onerror="this.src='https://via.placeholder.com/600x400?text=إصلاح+موقد+كهربائي'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>إصلاح موقد كهربائي</h3>
+                                <p>مشروع سكني</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gallery-item" data-category="oven commercial">
+                    <a href="images/gallery/oven-repair-2.svg" data-lightbox="gallery" data-title="فرن بيتزا تجاري - معايرة نظام التسخين والترموستات لمطعم بيتزا محلي.">
+                        <img src="images/gallery/oven-repair-2.svg" alt="إصلاح فرن بيتزا تجاري" onerror="this.src='https://via.placeholder.com/600x400?text=إصلاح+فرن+بيتزا'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>فرن بيتزا تجاري</h3>
+                                <p>مشروع مطعم</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gallery-item" data-category="oven">
+                    <a href="images/gallery/oven-repair-3.svg" data-lightbox="gallery" data-title="تركيب موقد غاز - توصيل خط غاز جديد وإعداد الموقد لتجديد المطبخ.">
+                        <img src="images/gallery/oven-repair-3.svg" alt="تركيب موقد غاز" onerror="this.src='https://via.placeholder.com/600x400?text=تركيب+موقد+غاز'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>تركيب موقد غاز</h3>
+                                <p>مشروع تجديد مطبخ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="gallery-item" data-category="oven">
+                    <a href="images/gallery/oven-repair-4.svg" data-lightbox="gallery" data-title="إصلاح فرن جداري مزدوج - إصلاح عدم ثبات درجة الحرارة واستبدال لوحة التحكم.">
+                        <img src="images/gallery/oven-repair-4.svg" alt="إصلاح فرن جداري مزدوج" onerror="this.src='https://via.placeholder.com/600x400?text=إصلاح+فرن+جداري'">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>إصلاح فرن جداري مزدوج</h3>
+                                <p>مشروع سكني</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="before-after">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">قبل وبعد</h2>
+            <p class="section-subtitle">شاهد التحول في مشاريع الإصلاح لدينا</p>
+            
+            <div class="before-after-slider animate-on-scroll">
+                <div class="before-after-item">
+                    <div class="before-image">
+                        <img src="images/gallery/before-1.svg" alt="قبل الإصلاح" onerror="this.src='https://via.placeholder.com/600x400?text=قبل+الإصلاح'">
+                        <div class="image-label">قبل</div>
+                    </div>
+                    <div class="after-image">
+                        <img src="images/gallery/after-1.svg" alt="بعد الإصلاح" onerror="this.src='https://via.placeholder.com/600x400?text=بعد+الإصلاح'">
+                        <div class="image-label">بعد</div>
+                    </div>
+                    <div class="project-description">
+                        <h3>ترميم وحدة مكثف مكيف الهواء</h3>
+                        <p>تعرضت هذه الوحدة الخارجية لأضرار بالغة بسبب الطقس والإهمال. قمنا باستبدال المكونات التالفة، وتنظيف النظام، واستعادته إلى حالة جديدة.</p>
+                    </div>
+                </div>
+                
+                <div class="before-after-item">
+                    <div class="before-image">
+                        <img src="images/gallery/before-2.svg" alt="قبل الإصلاح" onerror="this.src='https://via.placeholder.com/600x400?text=قبل+الإصلاح'">
+                        <div class="image-label">قبل</div>
+                    </div>
+                    <div class="after-image">
+                        <img src="images/gallery/after-2.svg" alt="بعد الإصلاح" onerror="this.src='https://via.placeholder.com/600x400?text=بعد+الإصلاح'">
+                        <div class="image-label">بعد</div>
+                    </div>
+                    <div class="project-description">
+                        <h3>ترميم داخلي للثلاجة</h3>
+                        <p>كانت هذه الثلاجة تعاني من أضرار داخلية كبيرة ومشاكل في التبريد. قمنا باستبدال الرفوف، وإصلاح نظام التبريد، واستعادة وظائفها بالكامل.</p>
+                    </div>
+                </div>
+                
+                <div class="before-after-item">
+                    <div class="before-image">
+                        <img src="images/gallery/before-3.svg" alt="قبل الإصلاح" onerror="this.src='https://via.placeholder.com/600x400?text=قبل+الإصلاح'">
+                        <div class="image-label">قبل</div>
+                    </div>
+                    <div class="after-image">
+                        <img src="images/gallery/after-3.svg" alt="بعد الإصلاح" onerror="this.src='https://via.placeholder.com/600x400?text=بعد+الإصلاح'">
+                        <div class="image-label">بعد</div>
+                    </div>
+                    <div class="project-description">
+                        <h3>استبدال لوحة تحكم الفرن</h3>
+                        <p>كان هذا الفرن يعاني من خلل في لوحة التحكم مع أزرار غير مستجيبة. قمنا باستبدال نظام التحكم بالكامل واستعادة الوظائف الكاملة.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="client-projects">
+        <div class="container">
+            <h2 class="section-title">المشاريع المميزة</h2>
+            <p class="section-subtitle">بعض من أكثر مشاريع الإصلاح تحدياً ونجاحاً لدينا</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/gallery/project-1.svg" alt="مشروع تجاري" onerror="this.src='https://via.placeholder.com/600x400?text=مشروع+تجاري'">
+                    </div>
+                    <div class="project-info">
+                        <h3>تجديد نظام تكييف المطعم</h3>
+                        <p class="project-location">مطعم محلي للمأكولات الفاخرة</p>
+                        <p class="project-description">تجديد شامل لنظام التكييف في المطعم خلال ساعات عدم العمل لتقليل اضطراب الأعمال. شمل استبدال مجاري الهواء، وتركيب وحدات جديدة موفرة للطاقة، وتحسين تدفق الهواء.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">٤٨</span>
+                                <span class="stat-label">ساعة</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">٣٠٪</span>
+                                <span class="stat-label">توفير الطاقة</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/gallery/project-2.svg" alt="مشروع سكني" onerror="this.src='https://via.placeholder.com/600x400?text=مشروع+سكني'">
+                    </div>
+                    <div class="project-info">
+                        <h3>تركيب مكيفات هواء لوحدات سكنية متعددة</h3>
+                        <p class="project-location">مجمع سكني</p>
+                        <p class="project-description">تركيب وحدات تكييف جديدة موفرة للطاقة في مجمع سكني مكون من 24 وحدة. تم التنسيق مع إدارة العقار لضمان الحد الأدنى من الإزعاج للسكان.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">٢٤</span>
+                                <span class="stat-label">وحدة</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">٢</span>
+                                <span class="stat-label">أسبوع</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/gallery/project-3.svg" alt="تبريد تجاري" onerror="this.src='https://via.placeholder.com/600x400?text=تبريد+تجاري'">
+                    </div>
+                    <div class="project-info">
+                        <h3>حالة طوارئ لتبريد متجر البقالة</h3>
+                        <p class="project-location">سوبر ماركت محلي</p>
+                        <p class="project-description">إصلاح طارئ لوحدات تبريد متعددة بعد تلف ناتج عن ارتفاع مفاجئ في التيار الكهربائي. عمل فريق الاستجابة السريعة طوال الليل لمنع خسارة المخزون واستعادة العمليات.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">١٢</span>
+                                <span class="stat-label">ساعة</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">+٥٠ ألف$</span>
+                                <span class="stat-label">مخزون تم إنقاذه</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>هل تحتاج إلى إصلاح احترافي للأجهزة؟</h2>
+                <p>اتصل بنا اليوم لتحديد موعد الخدمة!</p>
+                <a href="contact.html" class="btn btn-primary">اتصل بنا</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>صهيب<span>AC</span></h2>
+                    <p>خدمات إصلاح أجهزة احترافية يمكنك الوثوق بها.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="services.html">الخدمات</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="gallery.html">معرض الأعمال</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>خدماتنا</h3>
+                    <ul>
+                        <li><a href="services.html#ac">إصلاح المكيفات</a></li>
+                        <li><a href="services.html#fridge">إصلاح الثلاجات</a></li>
+                        <li><a href="services.html#oven">إصلاح الأفران</a></li>
+                        <li><a href="services.html#maintenance">الصيانة</a></li>
+                        <li><a href="services.html#installation">التركيب</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>اتصل بنا</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> <a href="https://maps.app.goo.gl/NWBLcXydTkv3Lxp97" target="_blank">الرمال، الرياض 13254، المملكة العربية السعودية</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+966580743413">+966 580 743 413</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:sohaibac@saudi.com">sohaibac@saudi.com</a></li>
+                        <li class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer_copyright">&copy; 2023 فني تكييف صهيب. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/translations.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+</html>

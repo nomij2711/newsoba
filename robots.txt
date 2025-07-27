@@ -1,0 +1,6 @@
+# robots.txt for Sohaib AC Technician Website
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.sohaibac.com/sitemap.xml

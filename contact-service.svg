@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <!-- Background -->
+  <rect width="600" height="800" fill="#f5f5f5"/>
+  
+  <!-- Technician -->
+  <g transform="translate(150, 200)">
+    <!-- Body -->
+    <rect x="100" y="150" width="200" height="250" rx="10" fill="#2c3e50"/>
+    
+    <!-- Head -->
+    <circle cx="200" cy="100" r="70" fill="#e6b89c"/>
+    
+    <!-- Face -->
+    <circle cx="175" cy="85" r="10" fill="#333"/> <!-- Left eye -->
+    <circle cx="225" cy="85" r="10" fill="#333"/> <!-- Right eye -->
+    <path d="M180 120 Q200 140 220 120" stroke="#333" stroke-width="5" fill="none"/> <!-- Smile -->
+    
+    <!-- Hair -->
+    <path d="M140 60 Q200 0 260 60" fill="#4a2c0f"/>
+    
+    <!-- Cap -->
+    <path d="M140 70 Q200 30 260 70 L250 90 Q200 60 150 90 Z" fill="#3498db"/>
+    <rect x="140" y="70" width="120" height="10" fill="#2980b9"/>
+    
+    <!-- Arms -->
+    <rect x="50" y="170" width="50" height="150" rx="20" fill="#e6b89c"/> <!-- Left arm -->
+    <rect x="300" y="170" width="50" height="150" rx="20" fill="#e6b89c"/> <!-- Right arm -->
+    
+    <!-- Hands -->
+    <circle cx="75" cy="320" r="20" fill="#e6b89c"/> <!-- Left hand -->
+    <circle cx="325" cy="320" r="20" fill="#e6b89c"/> <!-- Right hand -->
+    
+    <!-- Tool -->
+    <rect x="310" y="300" width="80" height="30" rx="5" fill="#7f8c8d"/>
+    <rect x="350" y="270" width="10" height="30" fill="#7f8c8d"/>
+    
+    <!-- Logo on uniform -->
+    <circle cx="200" cy="200" r="30" fill="#3498db"/>
+    <text x="185" y="205" font-family="Arial" font-size="12" font-weight="bold" fill="white">AC</text>
+    
+    <!-- Legs -->
+    <rect x="125" y="400" width="60" height="150" rx="10" fill="#34495e"/> <!-- Left leg -->
+    <rect x="215" y="400" width="60" height="150" rx="10" fill="#34495e"/> <!-- Right leg -->
+    
+    <!-- Shoes -->
+    <path d="M125 550 L125 570 L185 570 L185 550 Z" fill="#2c3e50"/> <!-- Left shoe -->
+    <path d="M215 550 L215 570 L275 570 L275 550 Z" fill="#2c3e50"/> <!-- Right shoe -->
+  </g>
+  
+  <!-- AC Unit -->
+  <g transform="translate(350, 300)">
+    <rect x="0" y="0" width="150" height="100" rx="5" fill="#ecf0f1"/>
+    <rect x="10" y="10" width="130" height="80" rx="3" fill="#bdc3c7"/>
+    <rect x="20" y="20" width="110" height="60" fill="#95a5a6"/>
+    <circle cx="75" cy="50" r="20" fill="#7f8c8d"/>
+    <path d="M65 50 L85 50 M75 40 L75 60" stroke="#ecf0f1" stroke-width="3"/>
+  </g>
+  
+  <!-- Tools -->
+  <g transform="translate(100, 500)">
+    <!-- Wrench -->
+    <path d="M20 20 L60 60 L70 50 L30 10 Z" fill="#7f8c8d"/>
+    <circle cx="25" cy="15" r="10" fill="#7f8c8d"/>
+    
+    <!-- Screwdriver -->
+    <rect x="80" y="10" width="10" height="60" fill="#e74c3c"/>
+    <path d="M80 10 L90 10 L95 0 L75 0 Z" fill="#7f8c8d"/>
+    
+    <!-- Toolbox -->
+    <rect x="10" y="80" width="100" height="60" fill="#e74c3c"/>
+    <rect x="40" y="70" width="40" height="10" fill="#c0392b"/>
+    <rect x="20" y="100" width="80" height="5" fill="#c0392b"/>
+    <circle cx="30" cy="90" r="5" fill="#ecf0f1"/>
+    <circle cx="90" cy="90" r="5" fill="#ecf0f1"/>
+  </g>
+</svg>

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sohaib AC Technician</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#3498db">
+    <meta name="description" content="Contact Sohaib AC for professional appliance repair services in Riyadh. Schedule a service, request a quote, or get emergency assistance 24/7.">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href="images/icons/icon-192x192.svg">
+    <link rel="apple-touch-icon" href="images/icons/icon-192x192.svg">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="SohaibAC">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>شعيب<span>للتكييف</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" data-translate="nav_home">الرئيسية</a></li>
+                    <li><a href="services.html" data-translate="nav_services">الخدمات</a></li>
+                    <li><a href="about.html" data-translate="nav_about">من نحن</a></li>
+                    <li><a href="gallery.html" data-translate="nav_gallery">معرض الأعمال</a></li>
+                    <li><a href="contact.html" class="active btn-contact" data-translate="nav_contact">اتصل بنا</a></li>
+                </ul>
+                <div class="language-selector" style="display: none;">
+                    <button class="lang-btn active" data-lang="ar">AR</button>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <div class="container">
+            <h1 data-translate="contact_page_title">اتصل بنا</h1>
+            <p data-translate="contact_page_subtitle">تواصل معنا لجميع احتياجاتك في إصلاح الأجهزة</p>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid animate-on-scroll">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3 data-translate="contact_call_title">Call Us</h3>
+                    <p data-translate="contact_call_text">For immediate assistance or to schedule a service appointment</p>
+                    <a href="tel:+966580743413" class="contact-detail" data-translate="contact_phone">+966 580 743 413</a>
+                    <p class="hours" data-translate="contact_call_hours">Available 24/7 for emergency services</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 data-translate="contact_email_title">Email Us</h3>
+                    <p data-translate="contact_email_text">For quotes, general inquiries, or feedback</p>
+                    <a href="mailto:shoiberepair@saudi.com" class="contact-detail" data-translate="contact_email">shoiberepair@saudi.com</a>
+                    <p class="hours" data-translate="contact_email_hours">We respond within 24 hours</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 data-translate="contact_visit_title">Visit Us</h3>
+                    <p data-translate="contact_visit_text">Our service center location</p>
+                    <address class="contact-detail" data-translate="contact_address">Ar Rimal<br>Riyadh 13254, Saudi Arabia</address>
+                    <p class="hours" data-translate="contact_visit_hours">Mon-Fri: 8am-6pm | Sat: 9am-3pm</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 data-translate="contact_hours_title">Service Hours</h3>
+                    <p data-translate="contact_hours_text">When we're available for scheduled repairs</p>
+                    <div class="contact-detail">
+                        <p data-translate="contact_hours_weekday">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                        <p data-translate="contact_hours_saturday">Saturday: 9:00 AM - 3:00 PM</p>
+                        <p data-translate="contact_hours_sunday">Sunday: Closed (Emergency Services Only)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-form-container animate-on-scroll">
+                <div class="form-content">
+                    <h2 data-translate="contact_form_title">Request a Service</h2>
+                    <p data-translate="contact_form_text">Fill out the form below to schedule a service appointment or request a quote. Our team will get back to you as soon as possible.</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" data-translate="form_name">Full Name*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email" data-translate="form_email">Email Address*</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone" data-translate="form_phone">Phone Number*</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service" data-translate="form_service">Service Type*</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected data-translate="form_select_service">Select a service</option>
+                                <option value="ac-repair" data-translate="service_ac_title">AC Repair</option>
+                                <option value="fridge-repair" data-translate="service_fridge_title">Refrigerator Repair</option>
+                                <option value="oven-repair" data-translate="service_oven_title">Oven Repair</option>
+                                <option value="maintenance" data-translate="service_maintenance_title">Maintenance Service</option>
+                                <option value="installation" data-translate="service_installation_title">Installation Service</option>
+                                <option value="other" data-translate="form_other">Other (Please specify)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="appliance" data-translate="form_appliance">Appliance Brand & Model (if known)</label>
+                            <input type="text" id="appliance" name="appliance">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date" data-translate="form_date">Preferred Date</label>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="time" data-translate="form_time">Preferred Time</label>
+                                <select id="time" name="time">
+                                    <option value="" disabled selected data-translate="form_select_time">Select a time</option>
+                                    <option value="morning" data-translate="form_morning">Morning (8am - 12pm)</option>
+                                    <option value="afternoon" data-translate="form_afternoon">Afternoon (12pm - 4pm)</option>
+                                    <option value="evening" data-translate="form_evening">Evening (4pm - 6pm)</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" data-translate="contact_form_message">Describe the Issue*</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="emergency" name="emergency">
+                            <label for="emergency" data-translate="contact_form_emergency">This is an emergency (requires immediate attention)</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary" data-translate="contact_form_submit">Submit Request</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="form-image">
+                    <img src="images/contact-service.svg" alt="Appliance Repair Technician">
+                    <div class="emergency-contact">
+                        <h3 data-translate="contact_emergency_title">Emergency Service</h3>
+                        <p data-translate="contact_emergency_text">Need immediate assistance? Call our emergency line:</p>
+                        <a href="tel:+966580743413" class="emergency-phone">
+                            <i class="fas fa-phone-alt"></i> +966 580 743 413
+                        </a>
+                        <p class="available" data-translate="contact_emergency_available">Available 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll" data-translate="contact_location_title">Our Location</h2>
+            <div class="map-container">
+                <!-- Replace with actual Google Maps embed code -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDA0JzQ3LjMiTiA3NMKwMDAnMTMuMyJX!5e0!3m2!1sen!2sus!4v1556736782194!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="location-details">
+                <div class="location-card">
+                    <h3 data-translate="contact_service_center">Service Center</h3>
+                    <address>
+                        Ar Rimal<br>
+                        Riyadh 13254<br>
+                        Saudi Arabia
+                    </address>
+                    <p><strong data-translate="contact_hours_label">Hours:</strong> <span data-translate="contact_hours_value">Monday-Friday 8am-6pm, Saturday 9am-3pm</span></p>
+                    <a href="https://goo.gl/maps/your-google-maps-link" class="btn btn-secondary" target="_blank" data-translate="contact_get_directions">Get Directions</a>
+                </div>
+                
+                <div class="location-card">
+                    <h3 data-translate="contact_service_area">Service Area</h3>
+                    <p data-translate="contact_service_area_text">We provide appliance repair services throughout the following areas:</p>
+                    <ul class="service-areas">
+                        <li>City Center</li>
+                        <li>North County</li>
+                        <li>West Hills</li>
+                        <li>Eastside</li>
+                        <li>South Bay</li>
+                        <li>And surrounding areas within 30 miles</li>
+                    </ul>
+                    <p><strong data-translate="contact_not_sure">Not sure if we service your area?</strong> <span data-translate="contact_give_call">Give us a call!</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll" data-translate="contact_faq_title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="contact_faq_q1">How quickly can you respond to service requests?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="contact_faq_a1">For standard service requests, we typically schedule appointments within 24-48 hours. For emergency services, we offer same-day service in most cases, depending on the time of day and current service volume.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="contact_faq_q2">Do you provide cost estimates before starting work?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="contact_faq_a2">Yes, we always provide a detailed cost estimate before beginning any repair work. Our technician will diagnose the issue, explain the problem, and provide a transparent quote for your approval before proceeding.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="contact_faq_q3">What brands do you service?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="contact_faq_a3">We service all major appliance brands, including but not limited to Samsung, LG, Whirlpool, GE, Maytag, Frigidaire, Kenmore, Bosch, Electrolux, KitchenAid, Haier, and Panasonic.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="contact_faq_q4">Do you offer warranties on your repairs?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="contact_faq_a4">Yes, all our repairs come with a 90-day warranty on parts and labor. If you experience the same issue within the warranty period, we'll return to fix it at no additional cost.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-translate="contact_faq_q5">What payment methods do you accept?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-translate="contact_faq_a5">We accept cash, credit cards (Visa, MasterCard, American Express, Discover), debit cards, and checks. We also offer financing options for larger repair or installation projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-translate="cta_title">Ready to Schedule Your Repair?</h2>
+                <p data-translate="cta_description">Contact us today for fast, reliable service!</p>
+                <div class="cta-buttons">
+                    <a href="tel:+1234567890" class="btn btn-primary"><i class="fas fa-phone-alt"></i> <span data-translate="cta_call_now">Call Now</span></a>
+                    <a href="#contactForm" class="btn btn-secondary" data-translate="cta_request_online">Request Service Online</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Sohaib<span>AC</span></h2>
+                    <p data-translate="footer_tagline">Professional appliance repair services you can trust.</p>
+                </div>
+                <div class="footer-links">
+                    <h3 data-translate="footer_quick_links">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html" data-translate="nav_home">Home</a></li>
+                        <li><a href="services.html" data-translate="nav_services">Services</a></li>
+                        <li><a href="about.html" data-translate="nav_about">About Us</a></li>
+                        <li><a href="gallery.html" data-translate="nav_gallery">Gallery</a></li>
+                        <li><a href="contact.html" data-translate="nav_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3 data-translate="footer_our_services">Our Services</h3>
+                    <ul>
+                        <li><a href="services.html#ac" data-translate="service_ac">AC Repair</a></li>
+                        <li><a href="services.html#fridge" data-translate="service_fridge">Refrigerator Repair</a></li>
+                        <li><a href="services.html#oven" data-translate="service_oven">Oven Repair</a></li>
+                        <li><a href="services.html#maintenance" data-translate="service_maintenance">Maintenance</a></li>
+                        <li><a href="services.html#installation" data-translate="service_installation">Installation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3 data-translate="footer_contact_us">Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> <a href="https://maps.app.goo.gl/NWBLcXydTkv3Lxp97" target="_blank"><span data-translate="footer_address">Ar Rimal, Riyadh 13254, Saudi Arabia</span></a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+966580743413"><span data-translate="footer_phone">+966 580 743 413</span></a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:sohaibac@saudi.com"><span data-translate="footer_email">sohaibac@saudi.com</span></a></li>
+                        <li class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer_copyright">&copy; 2023 Sohaib AC Technician. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/translations.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
